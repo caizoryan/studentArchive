@@ -4,6 +4,7 @@ class Arena {
   #content = [];
   #fetched = false;
   constructor(channel) {
+    console.log("ok");
     this.#url = "https://api.are.na/v2/";
     this.#channel = channel;
     //    this.#init();

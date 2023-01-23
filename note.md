@@ -1,0 +1,4 @@
+- [] create an are.na channel
+- [] add content to it
+- [] pull content from the channel
+  - [] Student : {program, content:{}}

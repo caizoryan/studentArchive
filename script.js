@@ -4,12 +4,6 @@ let main = new Arena(channelSlug);
 
 let data = {};
 
-class Student {
-  constructor(name, program, description, content) {
-    this.name = name;
-  }
-}
-
 let programs = [];
 let students = [];
 // request all channels - these will be the programs

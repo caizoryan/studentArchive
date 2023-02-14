@@ -2,7 +2,7 @@ let channelSlug = "student-archive-k-esjl-mxn4/";
 
 let main = new Arena(channelSlug);
 
-let data = {};
+let data = [];
 
 let studentClasses = [];
 // request all channels - these will be the programs
@@ -21,9 +21,15 @@ main
   })
   .then((programs) => {
     programs.forEach((program) => {
-      program.channel().then((allStudents) => {
+      program.everything().then((data) => {
+        let programTitle = data.channel.title;
+        let allStudents = data.content.filter(
+          (block) => block.class === "Channel"
+        );
         allStudents.forEach((student) => {
-          studentClasses.push(new Student(student.slug, student.title, "ok"));
+          studentClasses.push(
+            new Student(student.slug, student.title, programTitle)
+          );
         });
       });
     });
@@ -43,7 +49,6 @@ let interval = setInterval(() => {
 function checkLoaded() {
   let val = true;
   for (const x of studentClasses) {
-    console.log(x.updated);
     if (!x.updated) val = false;
   }
   return val;
@@ -72,7 +77,32 @@ function init() {
     }
     mainDom.innerHTML += `<div class="block">${code}</div>`;
   }
+  // construct data structure
+  for (const x of studentClasses) {
+    //link
+    let links = [];
+    for (const project of x.content) links.push(project.projectMeta.title);
+    links.push(x.program);
+
+    //images
+    let images = [];
+    let projects = [];
+    for (const project of x.content) {
+      projects.push(project.projectBlocks);
+    }
+
+    for (const proj of projects) {
+      for (const img of proj) {
+        if (img.class === "Image") images.push(img.image.display.url);
+      }
+    }
+
+    data.push({ name: x.name, links: links, images: images });
+  }
+  // call p5 init
+  let myp5 = new p5(s, "container");
 }
-main.channel().then((result) => {
-  console.log(result);
-});
+
+// main.channel().then((result) => {
+//   console.log(result);
+// });

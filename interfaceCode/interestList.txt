@@ -1,0 +1,130 @@
+'3d modelling' : ['Design']
+'a hacker manifesto' : ['philosophy', 'reading']
+'adobe' : ['tools', 'software']
+'advertising' : ['commercial design']
+'ai art' : ['software', 'Art]'
+'anime' : ['media', 'animation']
+'art history' : ['history', 'art']
+'art techniques' : ['art']
+'asl' :['language']
+'baking' : ['cooking']
+'basketball' : ['sports']
+'biomedical communications' : ['biology']
+'board games' : ['game design']
+'book cover design' : ['print', 'design']
+'branding' : ['commercial design']
+'budgeting' : ['finance']
+'c.s. lewis' : ['reading']
+'cars' : ['sports']
+'cartoon' : ['illustration']
+'cats' : ['animals']
+'character animation' : ['animation']
+'children’s book illustration' : [illustration]
+'chisel' : ['music']
+'coding' : ['technology'] 
+'coffee' : ['culture']
+'collaborative publication' : ['publication', 'writing']
+'comic' : ['illustration', 'reading']
+'communication' : ['language']
+'community' : ['culture']
+'computer graphics': ['technology', 'design']
+'conceptual art and design': ['art', 'design']
+'consciousness' : ['psychology']
+'conversation': ['community', 'web', 'language']
+'cooking' : ['culture', 'history']
+'craft beer' : ['culture']
+'css' : ['coding']
+'cyberpunk' : ['Video games']
+'dance' : ['culture', 'sports']
+'digital art' : ['art', 'technology']
+'dogs' : ['animals']
+'drawing' : ['illustration']
+'economics' : ['finance']
+'exchange rate' : ['finance']
+'family language' : ['language', 'culture']
+'fashion' : ['design']
+'file types' : ['technology']
+'filmmaking' : ['film']
+'freelancing' : ['design']
+'french' : ['language']
+'game design' : ['design', 'video games']
+'gardening' : ['community']
+'greek mythology' : ['history', 'mythology']
+'greek' : ['language']
+'green energy' : ['sustainibility']
+'greenwashing' : ['sustainibility']
+'guitar' : ['music']
+'gym' : ['sports']
+'halloween' : ['culture']
+'hand lettering' : ['typography']
+'health care' : ['biology']
+'horror' : ['film', 'art']
+'how to not procrastinate' : ['psychoogy']
+'html' : ['language', 'coding']
+'human anatomy' : ['drawing', 'biology']
+'human consciousness' : ['psychology']
+'ice skating' : ['sports']
+'immune boosting' : ['biology', 'health']
+'inflation' : ['history', 'finance']
+'infographic design' : ['design', 'data']
+'interest rate' : ['finance']
+'interior design' : ['design']
+'job hunting' : ['community']
+'keshi' : ['music']
+'kpop' : ['music']
+'liminal space' : ['design']
+'livestreams' : ['media']
+'macedonian' : ['language']
+'macro economics' : ['finance']
+'making jewelry' : ['art']
+'manga' : ['reading', 'illustration']
+'marine biology' : ['biology']
+'medicine' : ['biology']
+'mental health' : ['psychology']
+'motion design' : ['design', 'animation']
+'mould making' : ['']
+'nail polish' : ['fashion']
+'natural world' : []
+'networking' : ['communication']
+'nft' : ['technology', 'art']
+'non caucasian literature' : ['reading']
+'origin of universe' : []
+'package design' : ['design']
+'painting' : ['art']
+'photography' : ['art', 'design']
+'piano' : ['music']
+'pop' : ['music']
+'portfolio' : ['web', 'design']
+'portrait painting' : ['painting']
+'poster design' : ['design']
+'psychology' : []
+'publications' : []
+'r&b' : ['music']
+'relationship between science, art and math'
+'relief/letterpress' 
+'risograph'
+'scheduling'
+'scrapbooking'
+'screen printing'
+'skateboarding'
+'skateboarding' :
+'sleeping'
+'sports management'
+'sunsets'
+'sustainibility'
+'tattoo design'
+'thrifting'
+'tim burton'
+'toronto'
+'traditional japanese hard candies'
+'traveling'
+'tv shows'
+'typesetting'
+'ux/ui'
+'video editing'
+'video games'
+'web design'
+'web development'
+'wine'
+'world history'
+'world views' : ['philosophy']

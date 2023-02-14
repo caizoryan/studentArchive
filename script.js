@@ -73,3 +73,6 @@ function init() {
     mainDom.innerHTML += `<div class="block">${code}</div>`;
   }
 }
+main.channel().then((result) => {
+  console.log(result);
+});
